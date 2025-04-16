@@ -1,0 +1,17 @@
+---
+title: "J677: Week 2"
+author: 
+date: "2025-01-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+```{r}
+ggplot(mpg,mapping=aes(cty,hwy))+geom_point()+labs(x="city miles per gallon",y="highway miles per gallon",title = "Fig 1")
+```
+
+
